@@ -5,21 +5,21 @@ void setupShaders()
   
   // blobby
   newShader = new Shader("sinewave.glsl");
-  newShader.addParameter("p1", 0.0001, 5);
-  newShader.addParameter("p2", 0.0001, 5);
-  newShader.addParameter("p3", 0.0001, 5);
-  newShader.addParameter("p4", 0.0001, 8);
-  newShader.addParameter("p5", 0.0001, 5);
-  newShader.addParameter("p6", 0.0001, 5);
-  newShader.addParameter("p7", 0.0001, 5);
-  newShader.addParameter("p8", 0.0001, 5);
-  newShader.addParameter("p9", 0.0001, 4);
-  newShader.addParameter("p10", 0.0001, 4);
-  newShader.addParameter("p11", 0.0001, 5);
-  newShader.addParameter("p12", 0.0001, 6);
-  newShader.addParameter("p13", 0.0001, 5);
-  newShader.addParameter("p14", 0.0001, 4);
-  newShader.addParameter("p15", 0.0001, 6);
+  newShader.addParameter("p1", 0.001, 5);
+  newShader.addParameter("p2", 0.001, 5);
+  newShader.addParameter("p3", 0.001, 5);
+  newShader.addParameter("p4", 0.001, 8);
+  newShader.addParameter("p5", 0.001, 5);
+  newShader.addParameter("p6", 0.001, 5);
+  newShader.addParameter("p7", 0.001, 5);
+  newShader.addParameter("p8", 0.001, 5);
+  newShader.addParameter("p9", 0.001, 4);
+  newShader.addParameter("p10", 0.001, 4);
+  newShader.addParameter("p11", 0.001, 5);
+  newShader.addParameter("p12", 0.001, 6);
+  newShader.addParameter("p13", 0.001, 5);
+  newShader.addParameter("p14", 0.001, 4);
+  newShader.addParameter("p15", 0.001, 6);
   shaders.add(newShader);
   
  
